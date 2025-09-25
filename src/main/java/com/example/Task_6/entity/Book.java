@@ -17,8 +17,7 @@ public class Book {
     public Book() {
     }
 
-    public Book(Long id,String title, String author, boolean available) {
-        this.id =id;
+    public Book(String title, String author, boolean available) {
         this.title = title;
         this.author = author;
         this.available = available;
